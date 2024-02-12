@@ -374,8 +374,10 @@ body {
     font-weight: 500;
   }
   #loader {
+    overflow: hidden;
     height: 60vh;
   }
+
   #page1 {
     height: 60vh;
   }
