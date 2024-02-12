@@ -351,7 +351,7 @@ body {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   #nav {
     padding: 20px 5%;
   }
@@ -372,6 +372,18 @@ body {
     letter-spacing: 2px;
     line-height: 7vw;
     font-weight: 500;
+  }
+  #loader {
+    height: 60vh;
+  }
+  #page1 {
+    height: 60vh;
+  }
+  #page2 {
+    height: 40vh;
+  }
+  #page3 {
+    min-height: 10vh;
   }
 
   #page1 h1 {
@@ -421,5 +433,12 @@ body {
     position: relative;
     overflow: hidden;
     margin: 5px 10px;
+  }
+  #nav #right {
+    gap: 1.9vw;
+  }
+  #nav #right h2 {
+    font-weight: 500;
+    font-size: 3.2vw;
   }
 }
