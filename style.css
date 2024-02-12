@@ -375,11 +375,11 @@ body {
   }
   #loader {
     overflow: hidden;
-    height: 78vh;
+    height: 100vh;
   }
 
   #page1 {
-    height: 78vh;
+    height: 100vh;
   }
   #page2 {
     height: 40vh;
